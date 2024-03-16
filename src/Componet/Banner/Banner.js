@@ -5,11 +5,11 @@ import '../Banner/Banner.css'
 import { BsLinkedin,BsGithub,BsFacebook } from 'react-icons/bs';
 const Banner = () => {
     return (
-        <div className='lg:ml-32 ml-3'>
-            <div  className='lg:flex md:flex lg:mt-20 md:mt-20 mt-6'>
+        <div className='lg:pl-32 pl-3 bg-gradient-to-b from-black to-gray-800'>
+            <div  className='lg:flex md:flex lg:mt-20 md:mt-20 mt-6 '>
 
             <div className='  '>
-                <p className='lg:text-4xl md:text-3xl text-3xl'>Hi 👋 I'm Ashraful Karim Saad</p>
+                <p className='lg:text-4xl md:text-3xl text-3xl text-white'>Hi 👋 I'm Ashraful Karim Saad</p>
                 <p className='text-2xl mt-5'>I am a <span className=''><span style={{   fontWeight: '' }}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
