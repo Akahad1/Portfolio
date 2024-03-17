@@ -1,0 +1,11 @@
+.gradient {
+    background: linear-gradient(to right, black, #234069);
+    /* background: linear-gradient(to right, blue, green);
+    transition: background 5s ease; */
+}
+
+
+
+
+/* .gradient:hover {
+    background: linear-gradient(to right, black, #234069);/* Background color to transition to on hover */
