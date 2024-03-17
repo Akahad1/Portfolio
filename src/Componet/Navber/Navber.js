@@ -27,7 +27,7 @@ const Navber = () => {
     </ul>
   </div>
   <div className="lg:ml-2 md:ml-2 ml-24 lg:mr-10 mr-1">
-    <a className="btn">Button</a>
+    
   </div>
 </div>
             
