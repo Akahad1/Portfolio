@@ -1,0 +1,48 @@
+.image-container {
+    position: relative;
+     /* Adjust height as needed */
+    overflow: hidden;
+    
+  }
+  
+  .hover-image {
+    position: absolute;
+    top: 0;
+    transition: top 3.5s linear;
+    /* Adjust transition speed as needed */
+  }
+  
+  .image-container:hover .hover-image {
+    top: -250%; /* Adjust the value to control the movement distance */
+  }
+.image-container2 {
+    position: relative;
+     /* Adjust height as needed */
+    overflow: hidden;
+    
+  }
+  
+  .hover-image2 {
+    position: absolute;
+    top: 0;
+    transition: top 3s linear;
+    /* Adjust transition speed as needed */
+  }
+  
+  .image-container2:hover .hover-image2 {
+    top: -70%; /* Adjust the value to control the movement distance */
+  }
+  
+
+  .gradient {
+    background: linear-gradient(to right, black, #234069);
+    
+}
+
+.backgroundImg{
+    background-image: url('https://i.ibb.co/mzSWn6r/Black-Gradient-You-Are-Worthy-Quote-Desktop-Wallpaper-1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+}
