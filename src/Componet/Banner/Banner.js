@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import img from '../../../src/img/IMG_20240115_124142-removebg-preview.jpg'
 
 import '../Banner/Banner.css'
 import { BsLinkedin,BsGithub,BsFacebook } from 'react-icons/bs';
-const Banner = () => {
+import Aos from 'aos';
+import 'aos/dist/aos.css';
+const Banner = ({setSpecificplace}) => {
+
+  useEffect(()=>{
+    Aos.init({duration:'1000'});
+
+},[])
     return (
-        <div  className='lg:pl-32 pl-3 backgroundImg  pt-16 pb-16 '>
+        <div id='home'  className='lg:pl-32 pl-3 backgroundImg  pt-16 pb-16 ' onMouseEnter={()=>setSpecificplace('home')}>
             <div  className='lg:flex md:flex lg:mt-20 md:mt-20 mt-6 '>
 
-            <div className='  '>
+            <div className='  ' data-aos="fade-right">
                 <p className='lg:text-4xl md:text-3xl text-3xl text-white'>Hi 👋 I'm Ashraful Karim Saad</p>
                 <p className='text-2xl mt-5 text-white'>I am a <span className=''><span style={{   fontWeight: '' }}>
           {/* Style will be inherited from the parent element */}
@@ -32,7 +39,7 @@ const Banner = () => {
 Building easy-to-use, user-friendly websites, and applications is truly a passion of mine.</p>
             </div>
 
-            <div>
+            <div data-aos="fade-left">
                 <img className='lg:ml-80 md:ml-20 ml-10  lg:h-96 md:h-80 h-80 md:mr-32 lg:mr-0 mr-0  photo mt-5 mb-8' src={img} alt='img'/>
             </div>
 
