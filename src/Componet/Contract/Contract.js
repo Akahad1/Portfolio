@@ -26,6 +26,9 @@ const Contract = ({setSpecificplace}) => {
       .then(
         () => {
           console.log('SUCCESS!');
+          toast.success('You Message Send Successfully.');
+          
+          e.target.reset()
         },
         (error) => {
           console.log('FAILED...', error.text);
@@ -55,14 +58,14 @@ const Contract = ({setSpecificplace}) => {
           <label className="label">
             <span className="label-text text-white"> Name</span>
           </label>
-          <input  type="text" name="user_name"placeholder=" Tye frist-name" className="input input-bordered bg-slate-700 text-white" />
+          <input  type="text" name="from_name"placeholder=" Tye frist-name" className="input input-bordered bg-slate-700 text-white" />
         </div>
         
         <div className="form-control">
           <label className="label">
             <span className="label-text text-white">Email</span>
           </label>
-          <input type="text" name='email' placeholder="email" className="input input-bordered bg-slate-700 text-white" />
+          <input type="email" name="user_email"placeholder="email" className="input input-bordered bg-slate-700 text-white" />
         </div>
         <label className="label">
             <span className="label-text text-white">Message</span>
@@ -71,7 +74,9 @@ const Contract = ({setSpecificplace}) => {
         
         <div className="form-control mt-6">
           <button  type='submit' className="btn text-white btn-primary">Send Message</button>
+         
          <Toaster  />
+        
         </div>
       </div>
       </form>

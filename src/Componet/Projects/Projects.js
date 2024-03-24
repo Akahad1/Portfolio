@@ -41,9 +41,11 @@ const Projects = ({setSpecificplace}) => {
 <span className='text-xl text-white'>An E-Commerce Website</span>
 </p>
 
-<div className='flex justify-end'>
+<div className='flex justify-end overscroll-none'>
 <button className="btn btn-primary mt-2" onClick={()=>document.getElementById('my_modal_1').showModal()}>Show details</button>
+
 <ShowMuntajatData></ShowMuntajatData>
+
 </div>
 
 </div>
@@ -64,8 +66,8 @@ const Projects = ({setSpecificplace}) => {
 </p>
 
 
-<div className='flex justify-end'>
-<button className="btn btn-primary mt-2" onClick={()=>document.getElementById('my_modal_2').showModal()}>Show details</button>
+<div className='flex justify-end '>
+<button className="btn btn-primary mt-2" onClick={()=>document.getElementById('my_modal_10').showModal()}>Show details</button>
 <ShowCycalGorData></ShowCycalGorData>
 </div>
 </div>

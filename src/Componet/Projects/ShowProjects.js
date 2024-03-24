@@ -19,24 +19,24 @@ const ShowProjects = () => {
     <div className='lg:flex md:flex' >
       <div>
       <div className="carousel lg:w-96 md:96">
-  <div id="item1" className="carousel-item w-full h-80">
+  <div id="item10" className="carousel-item w-full  h-80">
     <img src={img1} alt='' className="w-full" />
   </div> 
-  <div id="item2" className="carousel-item w-full h-80">
+  <div id="item9" className="carousel-item w-full h-80">
     <img src={img2} alt='' className="w-full" />
   </div> 
-  <div id="item3" className="carousel-item w-full h-80">
+  <div id="item11" className="carousel-item w-full h-80">
     <img src={img3} alt='' className="w-full" />
   </div> 
-  <div id="item4" className="carousel-item w-full h-80">
+  <div id="item12" className="carousel-item w-full h-80">
     <img src={img4 } alt='' className="w-full" />
   </div>
 </div> 
 <div className="flex justify-center w-full py-2 gap-2">
-  <a href="#item1" className="btn btn-xs">1</a> 
-  <a href="#item2" className="btn btn-xs">2</a> 
-  <a href="#item3" className="btn btn-xs">3</a> 
-  <a href="#item4" className="btn btn-xs">4</a>
+  <a href="#item10" className="btn btn-xs">1</a> 
+  <a href="#item9" className="btn btn-xs">2</a> 
+  <a href="#item11" className="btn btn-xs">3</a> 
+  <a href="#item12" className="btn btn-xs">4</a>
 </div>
 
 <div className='flex mt-5'>
@@ -46,7 +46,7 @@ const ShowProjects = () => {
  </div>
       </div>
 
-      <div className='lg:ml-10'>
+      <div className='lg:ml-10 md:ml-8'>
       <p className='text-2xl  mb-3'>Description:</p>
 
 <p>Coder Master is an online best education platform.The platform covers programming languages ​​and web development.</p>
@@ -62,7 +62,7 @@ const ShowProjects = () => {
 8,Responsive for all Devices
 </p>
 <p className='text-2xl mt-3 mb-3'>Tools & Technologies</p>
-                <p>React,Firebase,NodeJS,ExpressJS,MongoDB,Stripe,JWT and Jqurey etc.</p>
+                <p>React,Firebase,NodeJS,ExpressJS,MongoDB, Stripe,JWT and Jqurey etc.</p>
                 
               </div>
 

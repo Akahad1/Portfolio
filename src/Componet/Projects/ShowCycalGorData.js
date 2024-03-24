@@ -9,7 +9,7 @@ const ShowCycalGorData = () => {
         <div>
             <div>
              
-             <dialog id="my_modal_2" className="modal ">
+             <dialog id="my_modal_10" className="modal ">
  <div className="modal-box w-11/12 max-w-5xl ">
    <form method="dialog">
      {/* if there is a button in form, it will close the modal */}
@@ -19,24 +19,24 @@ const ShowCycalGorData = () => {
    <div className='lg:flex md:flex' >
      <div>
      <div className="carousel lg:w-96 md:96">
- <div id="item1" className="carousel-item w-full h-96">
+ <div id="item5" className="carousel-item w-full h-96">
    <img src={img1} alt='' className="w-full" />
  </div> 
- <div id="item2" className="carousel-item w-full h-80">
+ <div id="item6" className="carousel-item w-full h-80">
    <img src={img2} alt='' className="w-full" />
  </div> 
- <div id="item3" className="carousel-item w-full h-80">
+ <div id="item7" className="carousel-item w-full h-80">
    <img src={img3} alt='' className="w-full" />
  </div> 
- <div id="item4" className="carousel-item w-full h-80">
+ <div id="item8" className="carousel-item w-full h-80">
    <img src={img4 } alt='' className="w-full" />
  </div>
 </div> 
 <div className="flex justify-center w-full py-2 gap-2">
- <a href="#item1" className="btn btn-xs">1</a> 
- <a href="#item2" className="btn btn-xs">2</a> 
- <a href="#item3" className="btn btn-xs">3</a> 
- <a href="#item4" className="btn btn-xs">4</a>
+ <a href="#item5" className="btn btn-xs">1</a> 
+ <a href="#item6" className="btn btn-xs">2</a> 
+ <a href="#item7" className="btn btn-xs">3</a> 
+ <a href="#item8" className="btn btn-xs">4</a>
 </div>
 
 <div className='flex mt-5'>
@@ -46,7 +46,7 @@ const ShowCycalGorData = () => {
 </div>
      </div>
 
-     <div className='lg:ml-10 mt-8'>
+     <div className='lg:ml-10 md:ml-8 mt-8'>
      <p className='text-2xl  mb-3'>Description:</p>
 
 <p> Cycle Gor like a great platform for buying and selling bicycles of various types.Whether you're a casual rider or a cycling enthusiast, Cycle Ghar provides a convenient space to find the perfect bicycle that suits your needs.</p>
@@ -68,7 +68,7 @@ const ShowCycalGorData = () => {
 8,Responsive for all Devices
 </p>
 <p className='text-2xl mt-3 mb-3'>Tools & Technologies</p>
-               <p>React,Firebase,NodeJS,ExpressJS,MongoDB,Stripe,React Icon and React hot tost etc.</p>
+               <p>React,Firebase,NodeJS,ExpressJS,MongoDB,  Stripe,React Icon and React hot tost etc.</p>
                
              </div>
 

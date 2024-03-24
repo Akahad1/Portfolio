@@ -19,11 +19,11 @@ import 'aos/dist/aos.css';
 
 
 const Skils = ({setSpecificplace}) => {
-  const About = ({setSpecificplace}) => {
+ 
     useEffect(()=>{
         Aos.init({duration:'1000'});
     
-    },[])}
+    },[])
     return (
         <div id='skils' className='pt-16 pb-16 gradient' onMouseEnter={()=>setSpecificplace('skils')}>
             <h1 className='text-3xl text-center text-white'>Skills</h1>
@@ -47,7 +47,7 @@ const Skils = ({setSpecificplace}) => {
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>javascript</p>
            </div>
            <div data-aos="fade-up">
-            <img className=' lg:w-[140px] md:w-[140px] w-24 lg:mt-5 inline lg:ml-32 md:ml-40 ml-7' src={github} alt=''></img>
+            <img className=' lg:w-[140px] md:w-[140px] w-24 lg:mt-5 inline lg:ml-32 md:ml-40 ml-0' src={github} alt=''></img>
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>GitHub</p>
            </div>
            </div>
@@ -67,7 +67,7 @@ const Skils = ({setSpecificplace}) => {
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>Bootstrap</p>
            </div>
            <div data-aos="fade-up">
-            <img className=' lg:w-20 md:w-20 w-14 mr-2 inline lg:ml-32 md:ml-40 ml-10' src={reactImg} alt=''></img>
+            <img className=' lg:w-20 md:w-20 w-14 mr-2 inline lg:ml-32 md:ml-40 ml-6' src={reactImg} alt=''></img>
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>React</p>
            </div>
            
@@ -77,11 +77,11 @@ const Skils = ({setSpecificplace}) => {
            <div className='flex lg:mt-0 md:mt-20 mt-12'> 
            
            <div data-aos="fade-up">
-            <img className=' lg:w-24 md:w-24 w-16 inline mr-3 lg:ml-32 md:ml-32 ml-4 lg:mt-0  mt-4' src={tailwidImg} alt=''></img>
+            <img className=' lg:w-24 md:w-24 w-14 inline mr-3 lg:ml-32 md:ml-32 ml-4 lg:mt-0  mt-4' src={tailwidImg} alt=''></img>
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>Tailwind Css</p>
            </div>
            <div data-aos="fade-up">
-            <img className=' lg:w-20 md:20 w-14 mr- inline lg:ml-32 md:ml-44 ml-10' src={firebseImg} alt=''></img>
+            <img className=' lg:w-20 md:20 w-14 mr- inline lg:ml-32 md:ml-44 ml-2' src={firebseImg} alt=''></img>
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>Firebase</p>
            </div>
            </div>
@@ -93,11 +93,11 @@ const Skils = ({setSpecificplace}) => {
           <div className='lg:flex'>
           <div className='flex'>
           <div data-aos="fade-up" className='mr-8'> 
-           <img className='lg:w-24 md:w-24 w-20 lg:ml-0 md:ml-32 ml-3 mr-2 inline' src={reduxImg} alt=''></img>
+           <img className='lg:w-24 md:w-24 w-20 lg:ml-0 md:ml-32 ml-2 mr-1 inline' src={reduxImg} alt=''></img>
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>Redux</p>
            </div>
            <div data-aos="fade-up">
-            <img className=' lg:w-20 md:20 w-14 mr-2 inline lg:ml-32 md:ml-44 ml-10' src={expressImg} alt=''></img>
+            <img className=' lg:w-20 md:20 w-14 mr-2 inline lg:ml-32 md:ml-44 ml-3' src={expressImg} alt=''></img>
             <p className='inline lg:text-2xl md:text-2xl text-xl text-white'>Express JS</p>
            </div>
 

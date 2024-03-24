@@ -8,7 +8,7 @@ const ShowMuntajatData = () => {
     return (
         <div>
 
-<div>
+<div className=''>
              
              <dialog id="my_modal_1" className="modal ">
  <div className="modal-box w-11/12 max-w-5xl ">
@@ -47,7 +47,7 @@ const ShowMuntajatData = () => {
 </div>
      </div>
 
-     <div className='lg:ml-10 mt-10'>
+     <div className='lg:ml-10 md:ml-8 mt-10'>
      <p className='text-2xl  mb-3'>Description:</p>
 
 <p>Muntajat is a laptop mobile tablet buying and selling website .through which seller can make whole sale and buyer can buy product.</p>
@@ -69,9 +69,10 @@ const ShowMuntajatData = () => {
 
 8,Responsive for all Devices
 </p>
-<p className='text-2xl mt-3 mb-3'>Tools & Technologies</p>
-               <p>React,Firebase,NodeJS,ExpressJS,MongoDB,Stripe,JWT
-and Jquery etc..</p>
+<p className='text-2xl mt-3 mb-3 '>Tools & Technologies</p>
+               <div >
+               <p className=''>React,Firebase,NodeJS,ExpressJS,MongoDB ,Jquery ,Stripe,JWT etc.</p>
+               </div>
                
              </div>
 

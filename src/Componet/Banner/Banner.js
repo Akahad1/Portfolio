@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import img from '../../../src/img/IMG_20240115_124142-removebg-preview.jpg'
-
+import resume from '../../../src/img/Ashraful Karim Saad Resume,Web Developer.pdf'
 import '../Banner/Banner.css'
 import { BsLinkedin,BsGithub,BsFacebook } from 'react-icons/bs';
 import Aos from 'aos';
@@ -35,12 +35,12 @@ const Banner = ({setSpecificplace}) => {
         </span>
                 </span></p>
 
-                <p className="py-4 w-96 lg:text-xl text-white  mr-3">Always passionate about new information & technologies. Striving to never stop learning and improving. Look forward to Working with a creative team to improve my skills and add value.
+                <p className="py-4 lg:w-96 md:w-96 lg:text-xl text-white   mr-2">Always passionate about new information & technologies. Striving to never stop learning and improving. Look forward to Working with a creative team to improve my skills and add value.
 Building easy-to-use, user-friendly websites, and applications is truly a passion of mine.</p>
             </div>
 
             <div data-aos="fade-left">
-                <img className='lg:ml-80 md:ml-20 ml-10  lg:h-96 md:h-80 h-80 md:mr-32 lg:mr-0 mr-0  photo mt-5 mb-8' src={img} alt='img'/>
+                <img className='lg:ml-80 md:ml-20 ml-5  lg:h-96 md:h-80 h-80 md:mr-32 lg:mr-0 mr-0  photo mt-5 mb-8' src={img} alt='img'/>
             </div>
 
             </div>
@@ -51,13 +51,13 @@ Building easy-to-use, user-friendly websites, and applications is truly a passio
 
       {/* <p className="py-2 ">FIND WITH ME</p> */}
       <div className='mt-2'>
-      <a  href="https://drive.google.com/file/d/1ZQcubXMYmbnZ3RL54PgRBOvh4RKQM4Fv/view" ><button className='btn bg-slate-600 text-white mr-10 '>Download Resume</button></a>
+      <a  href={resume} download='Resume' ><button className='btn bg-slate-600 text-white lg:mr-10 md:ml-10 mr-3'>Download Resume</button></a>
        <span className='bg-slate-600 p-3 rounded-full mr-3 '> 
        <a href="https://www.linkedin.com/in/ashraful-karim-saad/"><BsLinkedin className='inline text-center text-white w-5 h-5'/></a></span>
 
-        <span  className='bg-slate-600 p-3 rounded-full mr-3 '>
+        <span  className='bg-slate-600 p-3 rounded-full lg:mr-3 md:mr-3 mr-2 '>
           <a href="https://github.com/Akahad1"><BsGithub className='inline  text-white w-6 h-6'/></a></span>
-        <span className='bg-slate-600 p-3 rounded-full mr-3 '><a href="https://www.facebook.com/ak.sahad.5"><BsFacebook className='inline  text-white w-6 h-6'/></a></span>
+        <span className='bg-slate-600 p-3 rounded-full lg:mr-3 md:mr-3 mr-2 '><a href="https://www.facebook.com/ak.sahad.5"><BsFacebook className='inline  text-white w-6 h-6'/></a></span>
       </div>
             
         </div>
